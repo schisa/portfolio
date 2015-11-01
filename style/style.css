@@ -32,6 +32,7 @@ nav{
 
 nav ul{
 	padding: 0;
+
 }
 
 nav ul li{
@@ -39,7 +40,15 @@ nav ul li{
 	display: inline;
 	list-style-image: none;
 	font-size: 1em;
+	padding-right:3%;
+	padding-left:3%;
+	border-left: 1px solid #000;
 }
+
+nav ul li:nth-child(1){
+	border-left:none;
+}
+
 
 nav ul li a, nav ul li a:visited{
 	color: black;
