@@ -14,6 +14,7 @@ width: 55%;
 header{
 	text-align: center;
 	margin-top: 0px;
+
 }
 
 .subpage{
@@ -71,7 +72,7 @@ section h3{
 }
 
 section ul li{
-	font-size: em;
+	font-size: 1em;
 }
 
 section img{
@@ -105,4 +106,30 @@ footer{
 	width: 200px;
 	height: 200px;
 	border: 4px black solid;
+}
+
+@media (max-width: 768px){
+	body{
+		width: 90%;
+		padding: none;
+		color: red;
+	}
+	section	{
+		width: 100%;
+	}
+
+	p{
+		font-size: 1rem;
+	}
+
+	nav ul li{
+	list-style-type: none;
+	display: inline;
+	list-style-image: none;
+	font-size: 1rem;
+	padding-right:3%;
+	padding-left:3%;
+	border-left: 1px solid #000;
+	}
+
 }
