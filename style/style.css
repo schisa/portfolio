@@ -21,6 +21,17 @@ header{
 	margin-top:50px;
 }
 
+footer{
+	clear: both;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    line-height: normal;
+    position: absolute;
+    margin-top:50px;
+    width: 65%;
+}
+
 header h1{
 	font-size: 3em;
 	margin:0px;
