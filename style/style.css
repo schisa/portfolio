@@ -21,6 +21,21 @@ header{
 	margin-top:50px;
 }
 
+.summary{
+	margin: 0% auto 5% auto;
+/*	background-color: rgb(24,169,157, 0.1);
+	border-color: #18a99d;
+	border-width: 2px;
+	border-style: solid;
+    border-width: medium;*/
+	width: 65%;
+}
+
+.summaryText{
+	margin: 5%;
+}
+
+
 footer{
 	clear: both;
     padding: 0;
@@ -28,7 +43,7 @@ footer{
     vertical-align: middle;
     line-height: normal;
     position: absolute;
-    margin-top:50px;
+    margin-top:10px;
     width: 65%;
 }
 
