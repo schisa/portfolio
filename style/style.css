@@ -35,6 +35,22 @@ header{
 	margin: 5%;
 }
 
+.markDown{
+	-webkit-font-smoothing: antialiased;
+line-height: 1.5rem;
+box-sizing: border-box;
+font-family: Monaco,Menlo,Consolas,'Courier New',monospace!important;
+border: 1px solid #ddd;
+border-radius: .2rem;
+font-variant-ligatures: none;
+tab-size: 4;
+background: #f8f8f8;
+color: #e01e5a;
+font-size: .75rem;
+padding: 2px 3px 1px;
+white-space: normal;
+}
+
 
 footer{
 	clear: both;
