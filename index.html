@@ -29,6 +29,14 @@
 		<meta name="theme-color" content="#ffffff">
 		<meta name=viewport content="width=device-width, initial-scale=1">
     <script src="js/header.js" defer></script>
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+		const navToggle = document.querySelector('.nav-toggle');
+		const nav = document.querySelector('nav');
+		navToggle.addEventListener('click', function() {
+        	nav.classList.toggle('active');
+    });
+});</script>
 </head>
 <body>
     <div class="container">
