@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<title>Stephen Chisa</title>
-		<meta name="description" content="Stephen Chisa's personal portfolio.">
-		<meta name="author" content="Stephen Chisa">
-		<link rel="stylesheet" href="style/style.css">
-		<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-		<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-touch-icon-57x57.png">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stephen Chisa - Product Manager & Improv Enthusiast</title>
+    <meta name="description" content="Stephen Chisa's personal portfolio showcasing product management work and improv comedy passion.">
+    <meta name="author" content="Stephen Chisa">
+    <link rel="stylesheet" href="style/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+    <!-- Favicon links here -->
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-touch-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-touch-icon-60x60.png">
 		<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-touch-icon-72x72.png">
 		<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-touch-icon-76x76.png">
@@ -27,28 +28,36 @@
 		<meta name="msapplication-TileImage" content="/mstile-144x144.png">
 		<meta name="theme-color" content="#ffffff">
 		<meta name=viewport content="width=device-width, initial-scale=1">
-	</head>
-	<body>
-		<header>
-			<img class="circle" src="style/images/stephen.png" alt="Profile picture of Stephen" height="200" width="200">
-			<h1>Stephen Chisa</h1>
-		</header>
-		<nav>
-			<ul>
-				<li><a class="selected" href="index.html">About</a></li>
-				<li><a href="pm.html">Product</a></li>
-				<li><a href="art.html">Art</a></li>
-				<li><a href="https://www.dropbox.com/scl/fi/gizx336urc6ylm9gm2yif/StephenChisaResume2024.pdf?rlkey=thdigei25mychamg96tvd00rx&dl=0" target="_blank" >Resume</a></li>
-			<ul>
-		</nav>
-		<section class="summary">
-			<p class="summaryText">Hi, nice to meet you. If you are looking to hire a product manager, you are in luck as I am currently looking for work.<br><br>Check out my two Slack Apps: <a href="https://kasem.work">Kasem</a> and <a href="https://icebreak.work">Icebreaker</a>.
-			<br><br>I am passionate about startups, user-centered design, B2B products, remote work, and improv comedy. You can watch one of my improv shows <a target="_blank" href="https://youtu.be/QgtPOcUHU9w?si=nlh8L5-_UM0GcXWz">here</a>.
-			</p>
-		</section>
-		<footer>
-			<a href="https://www.linkedin.com/pub/stephen-chisa/12/898/297" target="_blank">Find me on LinkedIn</a>
-	
-		</footer>
-	</body>
+    <script src="js/header.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img class="circle" src="style/images/stephen.png" alt="Profile picture of Stephen Chisa" width="200" height="200">
+            <h1>Stephen Chisa</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" aria-current="page">About</a></li>
+                    <li><a href="pm.html">Product</a></li>
+                    <li><a href="art.html">Art</a></li>
+                    <li><a href="https://www.dropbox.com/scl/fi/gizx336urc6ylm9gm2yif/StephenChisaResume2024.pdf?rlkey=thdigei25mychamg96tvd00rx&dl=0" target="_blank" rel="noopener noreferrer">Resume<span class="sr-only"> (opens in a new tab)</span></a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <section class="summary">
+                <p class="summaryText">
+                    Hi, nice to meet you. If you are looking to hire a product manager, you are in luck as I am currently looking for work.<br><br>
+                    Check out my two Slack Apps: <a href="https://kasem.work">Kasem</a> and <a href="https://icebreak.work">Icebreaker</a>.
+                    <br><br>
+                    I am passionate about startups, user-centered design, B2B products, remote work, and improv comedy. You can watch one of my improv shows <a href="https://youtu.be/QgtPOcUHU9w?si=nlh8L5-_UM0GcXWz" target="_blank" rel="noopener noreferrer">here<span class="sr-only"> (opens in a new tab)</span></a>.
+                </p>
+            </section>
+        </main>
+        <footer>
+            <a href="https://www.linkedin.com/pub/stephen-chisa/12/898/297" target="_blank" rel="noopener noreferrer" class="linkedin-link">Find me on LinkedIn<span class="sr-only"> (opens in a new tab)</span></a>
+        </footer>
+    </div>
+</body>
 </html>
